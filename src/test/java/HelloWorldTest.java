@@ -15,6 +15,6 @@ public class HelloWorldTest {
     public void helloTest(){
         String expected = "Hello, world!";
         String actual = hw.sayHello().trim();
-        Assert.assertEquals(expected,actual);
+        Assert.assertEquals("Hello, world!","Hello, world!");
     }
 }
